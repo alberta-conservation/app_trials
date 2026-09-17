@@ -1,6 +1,7 @@
 library(shiny)
 library(webshot2)
 library(htmltools)
+library(chromote)
 
 ui <- fluidPage(
   titlePanel("Convert renderUI to PDF via webshot2"),
